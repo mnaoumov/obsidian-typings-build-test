@@ -1,5 +1,5 @@
 {
-  "name": "no-types-setting",
+  "name": "explicit-type-importing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
