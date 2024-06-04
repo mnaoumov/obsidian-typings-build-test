@@ -1,0 +1,20 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-test": "npm install && tsc --build --force"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "obsidian-typings": "file:../../obsidian-typings"
+  },
+  "type": "module",
+  "dependencies": {
+    "monkey-around": "^3.0.0",
+    "obsidian": "^1.5.7-1"
+  }
+}
