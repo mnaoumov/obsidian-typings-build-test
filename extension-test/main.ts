@@ -27,7 +27,7 @@ interface Database {
   dropDatabase(): Promise<void>;
 }
 
-class CommentatorPlugin extends Plugin {
+export default class CommentatorPlugin extends Plugin {
   remove_monkeys!: (() => void)[];
   database!: Database;
 

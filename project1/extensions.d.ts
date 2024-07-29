@@ -1,12 +1,7 @@
-/**
- * @note This is very important line, without it obsidian-typings definitions won't be picked up
- */
-export { };
+import CommentatorPlugin from "./main.ts";
 
 declare module "obsidian-typings" {
-  interface Plugins {
-    plugins: {
-      "commentator": CommentatorPlugin;
-    };
+  interface PluginsPluginsRecord {
+    commentator: CommentatorPlugin
   }
 }
