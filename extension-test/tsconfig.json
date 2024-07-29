@@ -3,7 +3,7 @@
     "target": "ESNext",
     "moduleResolution": "bundler",
     "strict": true,
-    "skipLibCheck": true,
+    "skipLibCheck": false,
     "types": [
       "obsidian-typings"
     ],
