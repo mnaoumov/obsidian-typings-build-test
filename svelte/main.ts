@@ -1,15 +1,15 @@
 import {
-    App,
+  App,
 } from "obsidian";
 
 function printInternalPlugins(app: App): void {
-    console.log(app.internalPlugins);
+  console.log(app.internalPlugins);
 }
 
 printInternalPlugins(app);
 
 import type {
-    InternalPlugins,
+  InternalPlugins,
 } from "obsidian-typings";
 
 const internalPlugins: InternalPlugins = app.internalPlugins;

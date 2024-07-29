@@ -5,14 +5,14 @@ import CommentatorPlugin from "./main";
 /**
  * @note This is very important line, without it obsidian-typings definitions won't be picked up
  */
-export {};
+export { };
 
 declare module "obsidian-typings" {
-	interface Plugins {
-		plugins: {
-			"commentator": CommentatorPlugin;
-		};
-	}
+  interface Plugins {
+    plugins: {
+      "commentator": CommentatorPlugin;
+    };
+  }
 }
 
 // METHOD 2: Works
