@@ -36,8 +36,9 @@ class CommentatorPlugin extends Plugin {
     }
 
     do() {
+        // Note: specifying Plugins type means that z.plugins.commentator.someFunction() does not work
         const z: Plugins = this.app.plugins;
-        z.plugins.commentator.someFunction();
+        this.app.plugins.plugins.commentator.someFunction();
 
         this.remove_monkeys.push(around(this.app.plugins, {
             // ERROR: Plugins does not have a method `uninstallPlugin`
